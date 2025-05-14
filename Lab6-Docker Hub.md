@@ -24,7 +24,7 @@ docker login
 Rename an Image
 ```
 docker image tag <orginal-image-name>:tag <dockerhub-username/final-image-name>:tag
-``
+```
 Push the Image:
 ```
 docker push meharcloudthat/<image-name>:<tag>
